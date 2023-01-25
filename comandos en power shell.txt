@@ -1,0 +1,31 @@
+pwd: ubicación
+ls: lista de archivos dentro de la ubicación
+clear: limpia la pantalla
+cd: acceder a una ruta . Absoluta : cd /Users/TECNICOS     relativa: cd .\Desktop
+cd 'C:\Users\TECNICOS\Desktop\Programacion web'
+
+cd ..  carpeta anterior    cd ../..  devuelve dos carpetas
+cd raiz
+
+mkdir nombre-de-carpeta : crear carpeta
+code .  abre la carpeta actual en Visual code studio
+ni  nombrearchivo.html   en otros funciona con touch
+open . abre carpeta actual (en este ps no funciona)
+mv index.html carpeta1/   el comando mv(move) mueve en este caso index.html a la carpeta 1
+mv about.html ..\carpeta1    mueeve el archivo about.html primero devolviendose a carpeta madre y luego llevandolo a carpeta 1
+mv about.html nuevo.html        renombra about.html por nuevo.html
+mv carpeta1 carpetahija         renombra carpeta1 por carpetahija
+cp index.html inicio.html       copia index.html en la misma carpeta con el nombre inicio.html
+cp index.html ..                copia index.html a carpeta anterior o carpeta madre
+cp -r carpetahija copy-carpetahija    copia carpetahija a la misma carpeta madre con nombre copy-carpetahija
+rm index.html       remueve index.html del lugar o carpeta donde esté ubicado en el momento
+cat index.html         me muestra el contenido que hay en ese archivo
+----------------------------------------------------------------------------------------------------------
+Comandos para git
+git --version    te deja ver la versión git instalada
+git config --global user.name Jorge Villanueva               crea nombre del usuario
+git config --global user.email jo.luvi8505@gmail.com         crea correo del usuario
+git config -l						     te muestra los datos creados anteriormente(nombre y correo)
+git                                                          te mustra todo lo de git
+git init                                                     crea una git
+ls -al                                                        muestra todo lo que hay en la carpeta incluyendo .git

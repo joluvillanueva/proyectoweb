@@ -22,10 +22,23 @@ rm index.html       remueve index.html del lugar o carpeta donde esté ubicado en
 cat index.html         me muestra el contenido que hay en ese archivo
 ----------------------------------------------------------------------------------------------------------
 Comandos para git
+cd 'c'
+cd 'users'
+cd 'JORGE L. VILLANUEVA'                                                    me lleva a la raíz
+
+
+cd proyectoweb
 git --version    te deja ver la versión git instalada
-git config --global user.name Jorge Villanueva               crea nombre del usuario
-git config --global user.email jo.luvi8505@gmail.com         crea correo del usuario
-git config -l						     te muestra los datos creados anteriormente(nombre y correo)
-git                                                          te mustra todo lo de git
-git init                                                     crea una git
-ls -al                                                        muestra todo lo que hay en la carpeta incluyendo .git
+git config --global user.name Jorge Villanueva                            crea nombre del usuario
+git config --global user.email jo.luvi8505@gmail.com                  crea correo del usuario
+git config -l						         te muestra los datos creados anteriormente(nombre y correo)
+git                                                                                         te mustra todo lo de git
+git init                                                                                    crea una git
+ls                                                                                           listado de la carpeta actual
+ls -al                                                                                      muestra todos los archivos ocultos que hay en la carpeta incluyendo .git
+rm -rf .git                                                                                   borra todo el historial
+git add .							              esto se hace antes de crear el commit
+git commit -m 'primer commit'                                                   crea commit (archivos historicos)
+git log                                                                                    muestra las caracteristicas del commit 
+git log -p                                                                                muestra todo el contenido de cada archivo dentro de la carpeta actual.
+cat nombrearchivo.txt                                                            permite ver contenido de archivo de texto
